@@ -1,5 +1,39 @@
 <body>
   <head>
+        <i style="font-size:10px">Hecho por Piero Sebastiani<br>4°D de Primaria - N°18</i>
+  <style>
+    /** importes **/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+  background-color: #000;
+  color:white;
+  font-family: 'Source Code Pro' !important; sans-serif;
+}
+h1 {
+  font-family: 'Arvo';
+  font-weight: bold;
+  font-size: 24px;
+  
+}
+.title {
+  text-align:center;
+  font-family:Arvo;
+  font-size:32px;
+}
+.toc-list, .toc-list ol {
+  list-style-type: none;
+}
+
+.toc-list {
+  padding: 0;
+}
+
+.toc-list ol {
+  padding-inline-start: 2ch;
+}
+
+  </style>
     <div class="title">diversos símbolos de esperanza en el mundo</div>
     <img src="https://media.discordapp.net/attachments/942908610177007617/1040428952847654992/esperanza.png?width=594&height=594" style="height:210px;float:right;"></img>
     <!--tabla de contenidos-->
@@ -47,40 +81,7 @@
     <h1 id="Imperio Bizantino. Creciente y estrella.">Imperio Bizantino. Creciente y estrella.</h1>La creciente y estrella es un símbolo que también representa al Islam. Aunque sea un símbolo religioso, los musulmanes no usan este símbolo para representar a su religión, así que se consideraría más como un símbolo de como una religión es vista por otras.
     <br><br>
     <center>
-      <i style="font-size:10px">Hecho por Piero Sebastiani<br>4°D de Primaria - N°18</i>
-  <style>
-    /** importes **/
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-body {
-  background-color: #000;
-  color:white;
-  font-family: 'Source Code Pro', sans-serif;
-}
-h1 {
-  font-family: 'Arvo';
-  font-weight: bold;
-  font-size: 24px;
   
-}
-.title {
-  text-align:center;
-  font-family:Arvo;
-  font-size:32px;
-}
-.toc-list, .toc-list ol {
-  list-style-type: none;
-}
-
-.toc-list {
-  padding: 0;
-}
-
-.toc-list ol {
-  padding-inline-start: 2ch;
-}
-
-  </style>
     </center>
   </head>
 </body>
