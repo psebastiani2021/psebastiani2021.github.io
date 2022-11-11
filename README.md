@@ -48,7 +48,7 @@
     <br><br>
     <center>
       <i style="font-size:10px">Hecho por Piero Sebastiani<br>4°D de Primaria - N°18</i>
-  <styles>
+  <style>
     /** importes **/
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
@@ -80,7 +80,7 @@ h1 {
   padding-inline-start: 2ch;
 }
 
-  </styles>
+  </style>
     </center>
   </head>
 </body>
