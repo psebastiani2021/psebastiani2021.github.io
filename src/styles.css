@@ -22,7 +22,7 @@ body {
 	 user-select: none;
 	 -moz-user-select: none;
 	 -webkit-user-select: none;
-	 background: #052433;
+	 background: #1d2124;
 	 position: fixed;
 	 top: 0;
 	 height: 40px;
@@ -45,7 +45,7 @@ body {
 	 transition: 0.7s;
 }
  .navigation__item {
-	 background: #052433;
+	 background: #1d2124;
 	 padding: 0 16px;
 }
  .navigation--visible {
