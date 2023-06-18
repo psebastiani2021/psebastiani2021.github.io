@@ -1,3 +1,4 @@
+/* 1. Fonts */
 @font-face {
   font-family: 'Helmet Neue', 'Helmet', 'Helmet Regular', 'Helvetica', sans-serif, monospace;
   src: url("fonts/HelmetNeue-Regular.otf");
@@ -5,6 +6,10 @@
 :root {
   --bs-body-font-family: 'Helmet Neue', 'Helmet', 'Helmet Regular', 'Helvetica', sans-serif, monospace;
 }
+h1 {
+ font-family:'Helmet Neue';
+}
+/* 2. Classes */
 .fancy-text {
    background: linear-gradient(to top left, #fc03f4, dodgerblue);
    -webkit-background-clip: text;
@@ -17,9 +22,7 @@ body {
   background-size: cover;
   height: 100vh;
 }
-.navbar > .container-fluid a, .navbar > .container-fluid .active {
-    color:#fff;
-}
+/* 3. RWD */
 .page-header {
 	 user-select: none;
 	 -moz-user-select: none;
