@@ -12,10 +12,10 @@
   color: transparent;
 }
 body {
-  color:#fff;
-  background-color: #000;
-  	 background-size: cover;
-	 height: 100vh;
+  color:#fff !important;
+  background-color: #000 !important;
+  background-size: cover;
+  height: 100vh;
 }
 .navbar > .container-fluid a, .navbar > .container-fluid .active {
     color:#fff;
