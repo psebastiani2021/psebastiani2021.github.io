@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Helmet Neue', 'Helmet', 'Helmet Regular', 'Helvetica', sans-serif, monospace;
+  src: url("fonts/HelmetNeue-Regular.otf");
+}
+.fancy-text {
+   background: linear-gradient(to top left, #fc03f4, dodgerblue);
+   -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+body {
+  color: #fff;
+  background-color: black;
+}
+:root {
+  --bs-body-font-family: 'Helmet Neue', 'Helmet', 'Helmet Regular', 'Helvetica', sans-serif, monospace;
+}
