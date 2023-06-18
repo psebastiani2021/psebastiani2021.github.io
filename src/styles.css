@@ -1,4 +1,5 @@
 /* 1. Fonts */
+/* 1.1 Helmet Neue */
 @font-face {
   font-family: 'Helmet Neue', 'Helmet', 'Helmet Regular', 'Helvetica', sans-serif, monospace;
   src: url("fonts/HelmetNeue-Regular.otf");
@@ -6,8 +7,13 @@
 :root {
   --bs-body-font-family: 'Helmet Neue', 'Helmet', 'Helmet Regular', 'Helvetica', sans-serif, monospace;
 }
-h1 {
+h1, h2, h3, h4, h5, h6 {
  font-family:'Helmet Neue';
+}
+/* 1.2 Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+p { 
+ font-family: 'Inter';
 }
 /* 2. Classes */
 .fancy-text {
