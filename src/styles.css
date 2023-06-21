@@ -10,7 +10,7 @@
   --bs-body-font-family: 'Helmet Neue', 'Helmet', 'Helmet Regular', 'Helvetica', sans-serif, monospace;
 }
 h1, h2, h3, h4, h5, h6 {
- font-family:'Helmet Neue';
+ font-family:'Helmet Neue', 'Helmet', 'Helmet Regular', sans-serif;
 }
 /* 1.2 Inter */
 p { 
