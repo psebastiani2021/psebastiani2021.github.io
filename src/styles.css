@@ -8,6 +8,7 @@ body{
 *{
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 /* 1. Fonts */
 /* 1.1 Helmet Neue */
@@ -101,92 +102,20 @@ body {
 	}
 }
 /* 4. Main page */
-.fullscreen-container{
-    overflow:hidden;
-    width:100%;
-    height:100%;
+.#show_bg_2 {
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Lnv3_Yw3vxcxy85dUtDaixCXB8W8ouyz5YoD8lQf&s');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    padding: 20px;
 }
-#all-pages{
-    position:relative;
-    top:0;
-    transition:all 800ms ease;
-    /* height set by js */
+#show_bg_2 h1 {
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
-.page{
-    height:100%;
-    width:100%;
-}
-#all-pages .page:nth-child(1){
-    background:linear-gradient(to top, #000, #000);
-}
-#all-pages .page:nth-child(2){
-    background:linear-gradient(to top, #000, #000);
-}
-#all-pages .page:nth-child(3){
-    background:linear-gradient(to top, #000, #000);
-              
-}
-#all-pages .page:nth-child(4){
-    background:linear-gradient(to top, #000, #000);
-              
-}
-#all-pages .page:nth-child(4){
-    background:linear-gradient(to top, #000, #000);
-              
-}
-.text-container{
-    font-family:'Inter';
-    color:white;
-    text-align:left;
-    position:relative;
-    top:50%;
-    margin:0 40px;
-    opacity:0;
-    visibility:visible;
-    transform:translateY(-50%);
-    transition:all 3s ease;
-}
-.text-container.in-sight{
-    opacity:1;
-    visibility:visible;
-}
-.text-container h2{
-    font-size:6vh;
-    text-transform:uppercase;
-}
-.text-container p{
-    font-size:2vh;
-    padding:1em 0;
-}
-.nav-dot-container{
-    position:fixed;
-    top:50%;
-    right:20px;
-    transform:translateY(-50%);
-}
-.nav-dot{
-    width:20px;
-    height:30px;
-    padding:20px 0px;
-    margin:auto;
-}
-.nav-dot span{
-    display:block;
-    width:10px;
-    height:10px;
-    border-radius:50%;
-    background:white;
-    transition:all 200ms ease;
-    margin: auto;
-}
-.nav-dot span:hover{
-    width:12px;
-    height:12px;
-}
-.nav-dot.dot-active span{
-    width:15px;
-    height:15px;
-}
-.parentFlex {
-  gap:70px;
+#show_bg_2 p {
+    margin-left: 1rem;
 }
