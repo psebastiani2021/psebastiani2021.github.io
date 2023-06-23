@@ -39,9 +39,7 @@ p {
 /* 3. RWD */
 .page-header {
 	 user-select: none;
-	 -moz-user-select: none;
-	 -webkit-user-select: none;
-	 background: #1d2124;
+	 background:transparent;
 	 position: fixed;
 	 top: 0;
 	 height: 40px;
