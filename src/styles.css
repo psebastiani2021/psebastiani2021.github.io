@@ -99,7 +99,12 @@ p {
 	}
 }
 /* 4. Main page */
-.#show_bg_2 {
+.* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#show_bg_2 {
     background-image:
     linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
     url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Lnv3_Yw3vxcxy85dUtDaixCXB8W8ouyz5YoD8lQf&s');
