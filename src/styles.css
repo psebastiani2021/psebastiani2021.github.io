@@ -105,9 +105,12 @@ p {
   box-sizing: border-box;
 }
 #show_bg_2 {
-    background-image:
-    linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
-    url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Lnv3_Yw3vxcxy85dUtDaixCXB8W8ouyz5YoD8lQf&s');
+ background: rgb(82,20,74);
+background: -moz-linear-gradient(90deg, rgba(82,20,74,1) 12%, rgba(75,14,98,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(82,20,74,1) 12%, rgba(75,14,98,1) 100%);
+background: linear-gradient(90deg, rgba(82,20,74,1) 12%, rgba(75,14,98,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#52144a",endColorstr="#4b0e62",GradientType=1);
+color: #fff;
     width: 100vw;
     height: 100vh;
     background-size: cover;
