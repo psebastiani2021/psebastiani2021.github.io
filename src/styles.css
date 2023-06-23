@@ -62,8 +62,12 @@ p {
 	 transition: 0.7s;
 }
  .navigation__item {
-	 background: #1d2124;
+	 background: transparent;
 	 padding: 0 16px;
+}
+.navigation__item:hover {
+	    font-size:15.78px;
+    transition:0.3s;
 }
  .navigation--visible {
 	 opacity: 1;
@@ -103,11 +107,7 @@ p {
   box-sizing: border-box;
 }
 #show_bg_2 {
- background: rgb(82,20,74);
-background: -moz-linear-gradient(90deg, rgba(82,20,74,1) 12%, rgba(75,14,98,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(82,20,74,1) 12%, rgba(75,14,98,1) 100%);
-background: linear-gradient(90deg, rgba(82,20,74,1) 12%, rgba(75,14,98,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#52144a",endColorstr="#4b0e62",GradientType=1);
+ background:radial-gradient(circle at 115% -25%,#7c536e 0,#23112b 29%,#2a0936 50%,transparent 100%,rgba(0,0,0,.32) 0),radial-gradient(circle at 25% 125%,rgba(121,98,153,.5) 0,rgba(49,18,90,.8) 25%,#2a0936 50%);
 color: #fff;
     width: 100vw;
     height: 100vh;
@@ -116,9 +116,9 @@ color: #fff;
     padding: 20px;
 }
 #show_bg_2 h1 {
-  margin-top: 2rem;
-  margin-left: 1rem;
+    margin-top:15rem;
+    margin-left:3rem;
 }
 #show_bg_2 p {
-    margin-left: 1rem;
+    margin-left:3rem;
 }
