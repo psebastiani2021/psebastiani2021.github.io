@@ -4,16 +4,20 @@ const numberButtons = document.querySelectorAll('.number');
 const operatorButtons = document.querySelectorAll('.operator');
 const equalButton = document.getElementById('equal');
 const clearButton = document.getElementById('clear');
+const dotButton = document.querySelector(".dot");
+let currentNumber = "";
 
 numberButtons.forEach(button => {
   button.addEventListener('click', () => {
-    display.value += button.textContent;
+    currentNumber += button.textContent;
+    updateDisplay();
   });
 });
 
 operatorButtons.forEach(button => {
   button.addEventListener('click', () => {
-    display.value += button.textContent;
+    currentNumber += button.textContent;
+    updateDisplay();
   });
 });
 
@@ -27,10 +31,9 @@ equalButton.addEventListener('click', () => {
 });
 
 clearButton.addEventListener('click', () => {
-  display.value = '';
+  currentNumber = "";
+  updateDisplay();
 });
-
-const dotButton = document.querySelector(".dot");
 
 dotButton.addEventListener("click", () => {
   if (!currentNumber.includes(".")) {
@@ -38,6 +41,9 @@ dotButton.addEventListener("click", () => {
     updateDisplay();
   }
 });
+
+const update
+
 // Console message
 window.onload = onLoadMsg
 function onLoadMsg() {
