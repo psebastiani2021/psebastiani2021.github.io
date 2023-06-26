@@ -100,11 +100,6 @@ p {
 	}
 }
 /* 4. Main page */
-.* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 #show_bg_2 {
  background:radial-gradient(circle at 115% -20%,#7c536e 0,#23112b 29%,#2a0936 50%,transparent 100%,rgba(0,0,0,.32) 0),radial-gradient(circle at 25% 125%,rgba(121,98,153,.5) 0,rgba(49,18,90,.8) 25%,#2a0936 50%);
 color: #fff;
@@ -120,4 +115,7 @@ color: #fff;
 }
 #show_bg_2 p {
     margin-left:3rem;
+}
+.navbar-brand {
+    margin-top:-7px;
 }
