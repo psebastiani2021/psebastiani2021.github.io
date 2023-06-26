@@ -42,7 +42,10 @@ dotButton.addEventListener("click", () => {
   }
 });
 
-const update
+const updateDisplay = () => {
+  display.value = currentNumber;
+};
+
 
 // Console message
 window.onload = onLoadMsg
