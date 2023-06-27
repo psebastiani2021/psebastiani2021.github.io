@@ -6,3 +6,9 @@ body.calculator-body {
   border-radius: 5px;
   background-color: #3e2148;
 }
+body p, h1 {
+  margin-left: 7%;
+}
+div.mt-4 {
+  margin-top: 6em !important;
+}
