@@ -36,6 +36,15 @@ p {
   color: transparent;
 }
 /* 3. RWD */
+@media screen and (max-width:475px){
+.navbar-brand {
+  margin-left: -30px;
+}
+  h1, p, .navbar-brand {
+    margin-left: -25px;
+    white-space: normal !important;
+  }
+}
 @media screen and (min-width: 1280px) and (max-width:1364px) {
 #show_bg_2 h1 {
     margin-top:25rem !important;
