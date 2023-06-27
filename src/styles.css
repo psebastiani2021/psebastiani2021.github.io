@@ -36,16 +36,7 @@ p {
   color: transparent;
 }
 /* 3. RWD */
-@media screen and (min-width: 1365px) {
-#show_bg_2 h1 {
-    margin-top:15rem !important;
-    margin-left:3rem !important;
-}
-#show_bg_2 p {
-    margin-left:3rem !important;
-}
-}
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width:1364px) {
 #show_bg_2 h1 {
     margin-top:25rem !important;
     margin-left:8rem !important;
