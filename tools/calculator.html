@@ -5,32 +5,28 @@
   <script src="/src/script.js"></script>
   <title>Calculator - Student Tools | By students, for students</title>
 </head>
-<body class="calculator-body">
-  <div class="content">
-    <div id="calculator">
-      <input type="text" id="display" readonly>
-      <div class="buttons">
-        <button class="number calc">1</button>
-        <button class="number calc">2</button>
-        <button class="number calc">3</button>
-        <button class="number calc">4</button>
-        <button class="number calc">5</button>
-        <button class="number calc">6</button>
-        <button class="number calc">7</button>
-        <button class="number calc">8</button>
-        <button class="number calc">9</button>
-        <button class="number calc">0</button>
-        <button class="number calc dot">.</button>
-        <button class="operator calc">+</button>
-        <button class="operator calc">-</button>
-        <button class="operator calc">/</button>
-        <button class="operator calc">*</button>
-        <button class="operator calc">**</button>
-        <button class="operator calc">%</button>
-        <button class="calc" id="equal">=</button>
-        <button class="calc" id="clear">C</button>
-      </div>
-    </div>
+    <div class="fullscreen-container">
+  <div id="all-pages">
+    <section class="page">
+<header class="page-header">
+  <div class="page-header__top">
+    <div class='page-header__logo'><img src="assets/ST_logo_renewal.png" width="110" height ="60" alt="Logo" class="navbar-brand"></img></div>
+    <div class="page-header__toggle" onclick="toggleMenu()">☰</div>
   </div>
+  <nav class="page-header__bottom">
+    <ul id="navigation" class="navigation">
+   <li class="navigation__item" href="#">Home</li>
+      <li class="navigation__item" href="tools/word-count">Word count</li>
+      <li class="navigation__item" href="#" id="active">Calculator</li>
+      <li class="navigation__item" href="blog/index">Blog</li>
+      <li class="navigation__item" href="blog/study-tips">Study tips</li>
+    </ul>
+  </nav>
+</header>
+<body class="calculator-body">
+ <div class="calculator-p">
+   <h1>Calculator</h1>
+   <p>Try our online free and fast calculator, supporting basic mathematical operations. Simply enter your operation, and see the result below the input. From simple additions to exponentiation and mathematical grouping.</p>
+ </div>
 </body>
 </html>
