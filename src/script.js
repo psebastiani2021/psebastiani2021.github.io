@@ -1,52 +1,32 @@
+/// Tools
 // Calculator
-const display = document.getElementById('display');
-const numberButtons = document.querySelectorAll('.number');
-const operatorButtons = document.querySelectorAll('.operator');
-const equalButton = document.getElementById('equal');
-const clearButton = document.getElementById('clear');
-const dotButton = document.querySelector(".dot");
-let currentNumber = "";
+const input = document.getElementById('input');
+const math = window.math; // Reference to the math.js library
+const parser = new math.parser();
 
-numberButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    currentNumber += button.textContent;
-    updateDisplay();
-  });
+input.addEventListener('input', () => {
+  // Remove any non-numeric, non-symbol, non-grouping, and non-brace characters from the input value
+  const filteredValue = input.value.replace(/[^0-9+\-*/.%()\[\]{}]/g, '');
+  input.value = filteredValue;
 });
 
-operatorButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    currentNumber += button.textContent;
-    updateDisplay();
-  });
-});
+const calculateButton = document.getElementById('calculate');
+const resultDiv = document.getElementById('result');
 
-equalButton.addEventListener('click', () => {
+calculateButton.addEventListener('click', () => {
+  const expression = input.value;
   try {
-    const result = eval(display.value);
-    display.value = result;
+    // Use the mathjs-expression-parser to evaluate the expression
+    const result = parser.evaluate(expression);
+    resultDiv.textContent = `${result}`;
   } catch (error) {
-    display.value = 'Syntax error';
+    resultDiv.textContent = 'Syntax error.';
   }
 });
 
-clearButton.addEventListener('click', () => {
-  currentNumber = "";
-  updateDisplay();
-});
-
-dotButton.addEventListener("click", () => {
-  if (!currentNumber.includes(".")) {
-    currentNumber += ".";
-    updateDisplay();
-  }
-});
-
-const updateDisplay = () => {
-  display.value = currentNumber;
-};
-
-
+function appendValue(value) {
+  document.getElementById('input').value += value;
+}
 // Console message
 window.onload = onLoadMsg
 function onLoadMsg() {
