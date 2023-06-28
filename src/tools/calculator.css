@@ -6,6 +6,6 @@ body.calculator-body {
   border-radius: 5px;
   background-color: #3e2148;
 }
-.page__header.calculator-nav {
+.page__header, .calculator-nav {
   background: #3a2840 !important;
 }
