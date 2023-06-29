@@ -1,5 +1,5 @@
 body.calculator-body {
-  background-color: #290934;
+     background:radial-gradient(circle at 115% -20%,#7c536e 0,#23112b 29%,#2a0936 50%,transparent 100%,rgba(0,0,0,.32) 0),radial-gradient(circle at 25% 125%,rgba(121,98,153,.5) 0,rgba(49,18,90,.8) 25%,#2a0936 50%);
   color: #fff;
 }
 .inputbox {
