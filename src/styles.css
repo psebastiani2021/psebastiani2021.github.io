@@ -165,6 +165,10 @@ color: #fff;
   width: 95%;
   margin-bottom: 10px;
 }
+a.nostyle {
+	text-decoration: none;
+	color: #fff;
+}
 /* Tools for: */
 /** calculator.html **/
 div.content {
