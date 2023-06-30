@@ -9,3 +9,6 @@ body.calculator-body {
 .page__header, .calculator-nav {
   background: #3a2840 !important;
 }
+input {
+    margin-left: 4em;
+}
