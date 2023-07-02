@@ -12,3 +12,15 @@ body.calculator-body {
 input.calculator-input, input {
     margin-left: 4.3em !important;
 }
+input {
+    width: 82%;
+}
+button {
+    border: none;
+    background-color: #3e2148;
+    color: #fff;
+    border-radius:5px;
+}
+button::before, button::after {
+    content:"‎ " !important;
+}
