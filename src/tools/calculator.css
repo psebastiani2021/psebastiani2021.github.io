@@ -35,3 +35,6 @@ h1 {
 p {
     line-height:140%;
 }
+ul:not(.navigation) {
+    margin-left: 4em;
+}
