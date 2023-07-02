@@ -1,0 +1,42 @@
+<script>
+  // Calculator
+const input = document.getElementById('input');
+
+input.addEventListener('input', () => {
+  // Remove any non-numeric, non-symbol, and non-grouping characters from the input value
+  const filteredValue = input.value.replace(/[^0-9+\-*/.%()\[\]]/g, '');
+  input.value = filteredValue;
+});
+
+
+const calculateButton = document.getElementById('calculate');
+const resultDiv = document.getElementById('result');
+
+calculateButton.addEventListener('click', () => {
+  const expression = input.value;
+  try {
+    const result = eval(expression);
+    resultDiv.textContent = `${result}`;
+  } catch (error) {
+    resultDiv.textContent = 'Syntax error.';
+  }
+});
+function appendValue(value) {
+  document.getElementById('input').value += value;
+}
+</script>
+<html>
+  <div class="mt-4 ms-5 content">
+   <h1>Calculator</h1>
+   <p>Discover the convenience of our online calculator that is not only free but also fast. This amazing tool supports a wide range of fundamental mathematical operations using simple JavaScript, enabling you to effortlessly perform calculations with utmost accuracy and efficiency. The operations are based on programming arithmetic.</p>
+   <input id="input" rows="3" class="calculator-input"></input>
+   <button id="calculate">Get result&nbsp;</button>
+   <div class="ms-5">
+   <div class="inputbox"><strong>The result is:</strong>&nbsp;<span id="result"></span></div>
+   <br />
+   The calculator supports many arithmetical operations and functionalities - for example:
+   <ul>
+     <li><b>Addition and substraction</b> &mdash; These operations can be easily done. </li>
+   </ul>
+   </div>
+</html>
