@@ -1,4 +1,3 @@
-
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,48 +7,57 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   <title>Calculator - Student Tools | By students, for students</title>
 </head>
-    <div class="fullscreen-container">
-  <div id="all-pages">
-    <section class="page">
-<header class="page-header calculator-nav">
-  <div class="page-header__top">
-    <div class='page-header__logo'><img src="/assets/ST_logo_renewal.png" width="110" height ="60" alt="Logo" class="navbar-brand"></img></div>
-    <div class="page-header__toggle" onclick="toggleMenu()">☰</div>
-  </div>
-  <nav class="page-header__bottom">
-    <ul id="navigation" class="navigation">
-   <li class="navigation__item" href="#">Home</li>
-      <li class="navigation__item" href="tools/word-count"><a href="tools/word-count" class="nostyle">Word count</a></li>
-      <li class="navigation__item" href="tools/calculator"><a href="tools/calculator" class="nostyle">Calculator</a></li>
-      <li class="navigation__item" href="blog/index"><a href="blog/index" class="nostyle">Blog</a></li>
-      <li class="navigation__item" href="blog/study-tips"><a href="blog/study-tips" class="nostyle">Study tips</a></li>
-    </ul>
-  </nav>
-</header>
-<body class="calculator-body">
-  <div class="mt-4 ms-5 content">
-    <h1>Calculator</h1>
-    <p>Discover the convenience of our online calculator that is not only free but also fast. This amazing tool supports a wide range of fundamental mathematical operations using simple JavaScript, enabling you to effortlessly perform calculations with utmost accuracy and efficiency. The operations are based on programming arithmetic.</p>
-    <br />
-    <input id="input" rows="3" class="calculator-input"></input>
-    <button id="calculate">Get result&nbsp;</button>
-    <br />
-    <div class="ms-5">
-      <div class="inputbox"><strong>The result is:</strong>&nbsp;<span id="result"></span></div>
-      <br />
-      <p>The calculator supports many arithmetical operations and functionalities - for example:</p> <br />
-      <ul><p>
-        <li><b>Addition and subtraction</b> &mdash; These operations can be easily done through the calculator, with the symbols + and -.</li>
-        <li><b>Multiplication and division</b> &mdash; For multiplication, use parentheses on the second factor. In division, use the symbol /.</b></li>
-        <li><b>Exponentiation</b> &mdash; To raise a quantity to the power of another, use two asterisks (**).</li>
-        <li><b>Modulo</b></li> &mdash; The remainder of a division. Use the percentage sign %.</li>
-      </p></ul>
-      <p>However, if you want to use mathematical constants, here is a conversion table:</p> <br />
-      <ul><p>
-        <li>pi is equal to 3.1415926535.</li>
-        <li>Euler's number (e) is equal to 2.71828182846.</li>
-        <li>Tau is equal to 6.28318.</li>
-      </p></ul>
+<body>
+  <div class="fullscreen-container">
+    <div id="all-pages">
+      <section class="page">
+        <header class="page-header calculator-nav">
+          <div class="page-header__top">
+            <div class="page-header__logo">
+              <img src="/assets/ST_logo_renewal.png" width="110" height ="60" alt="Logo" class="navbar-brand" />
+            </div>
+            <div class="page-header__toggle" onclick="toggleMenu()">☰</div>
+          </div>
+          <nav class="page-header__bottom">
+            <ul id="navigation" class="navigation">
+              <li class="navigation__item"><a href="#">Home</a></li>
+              <li class="navigation__item"><a href="tools/word-count">Word count</a></li>
+              <li class="navigation__item"><a href="tools/calculator">Calculator</a></li>
+              <li class="navigation__item"><a href="blog/index">Blog</a></li>
+              <li class="navigation__item"><a href="blog/study-tips">Study tips</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="calculator-body">
+          <div class="mt-4 ms-5 content">
+            <h1>Calculator</h1>
+            <p>Discover the convenience of our online calculator that is not only free but also fast. This amazing tool supports a wide range of fundamental mathematical operations using simple JavaScript, enabling you to effortlessly perform calculations with utmost accuracy and efficiency. The operations are based on programming arithmetic.</p>
+            <br />
+            <input id="input" class="calculator-input" />
+            <button id="calculate">Get result&nbsp;</button>
+            <br />
+            <div class="ms-5">
+              <div class="inputbox">
+                <strong>The result is:</strong>&nbsp;<span id="result"></span>
+              </div>
+              <br />
+              <p>The calculator supports many arithmetical operations and functionalities - for example:</p>
+              <ul>
+                <li><b>Addition and subtraction</b> &mdash; These operations can be easily done through the calculator, with the symbols + and -.</li>
+                <li><b>Multiplication and division</b> &mdash; For multiplication, use parentheses on the second factor. In division, use the symbol /.</li>
+                <li><b>Exponentiation</b> &mdash; To raise a quantity to the power of another, use two asterisks (**).</li>
+                <li><b>Modulo</b> &mdash; The remainder of a division. Use the percentage sign %.</li>
+              </ul>
+              <p>However, if you want to use mathematical constants, here is a conversion table:</p>
+              <ul>
+                <li>pi is equal to 3.1415926535.</li>
+                <li>Euler's number (e) is equal to 2.71828182846.</li>
+                <li>Tau is equal to 6.28318.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 
