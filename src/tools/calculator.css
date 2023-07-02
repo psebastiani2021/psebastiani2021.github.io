@@ -5,12 +5,13 @@ body.calculator-body {
 .inputbox {
   border-radius: 5px;
   background-color: #3e2148;
+  margin-left: 3.99em;
 }
 .page__header, .calculator-nav {
   background: #3a2840 !important;
 }
 input.calculator-input, input {
-    margin-left: 4.201em !important;
+    margin-left: 3.99em !important;
 }
 input {
     width: 82%;
