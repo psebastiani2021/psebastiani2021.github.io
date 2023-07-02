@@ -24,3 +24,11 @@ button {
 button::before, button::after {
     content:"‎ " !important;
 }
+* {
+    font-family: Inter;
+}
+h1 {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 120%;
+}
